@@ -26,6 +26,7 @@ python/mujoco/include/
 python/mujoco/studio/assets/
 python/mujoco/studio/web/dist/
 doc/_build
+target/
 
 # Exclude macOS folder attributes
 .DS_Store

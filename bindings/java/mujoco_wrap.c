@@ -236,7 +236,7 @@ static void SWIGUNUSED SWIG_JavaThrowException(JNIEnv *jenv, SWIG_JavaExceptionC
 extern "C" {
 #endif
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjVERSION_1HEADER_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjVERSION_1HEADER_1get(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -248,7 +248,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjVERSION_1HEADER_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1user_1malloc_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1user_1malloc_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   void *(*arg1)(size_t) = 0 ;
   
   (void)jenv;
@@ -258,7 +258,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1user_1malloc_1set(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1user_1malloc_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1user_1malloc_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   void *(*result)(size_t) = 0 ;
   
@@ -270,7 +270,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1user_1malloc_1get(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1user_1free_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1user_1free_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   void (*arg1)(void *) = 0 ;
   
   (void)jenv;
@@ -280,7 +280,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1user_1free_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1user_1free_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1user_1free_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   void (*result)(void *) = 0 ;
   
@@ -292,7 +292,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1user_1free_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1user_1error_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1user_1error_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   void (*arg1)(char const *) = 0 ;
   
   (void)jenv;
@@ -302,7 +302,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1user_1error_1set(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1user_1error_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1user_1error_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   void (*result)(char const *) = 0 ;
   
@@ -314,7 +314,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1user_1error_1get(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1user_1warning_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1user_1warning_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   void (*arg1)(char const *) = 0 ;
   
   (void)jenv;
@@ -324,7 +324,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1user_1warning_1set(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1user_1warning_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1user_1warning_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   void (*result)(char const *) = 0 ;
   
@@ -336,7 +336,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1user_1warning_1get(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1passive_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1passive_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfGeneric arg1 ;
   mjfGeneric *argp1 ;
   
@@ -352,7 +352,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1passive_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1passive_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1passive_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfGeneric result;
   
@@ -368,7 +368,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1passive_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1control_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1control_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfGeneric arg1 ;
   mjfGeneric *argp1 ;
   
@@ -384,7 +384,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1control_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1control_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1control_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfGeneric result;
   
@@ -400,7 +400,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1control_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1contactfilter_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1contactfilter_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfConFilt arg1 ;
   mjfConFilt *argp1 ;
   
@@ -416,7 +416,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1contactfilter_1set(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1contactfilter_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1contactfilter_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfConFilt result;
   
@@ -432,7 +432,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1contactfilter_1get(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1sensor_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1sensor_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfSensor arg1 ;
   mjfSensor *argp1 ;
   
@@ -448,7 +448,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1sensor_1set(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1sensor_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1sensor_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfSensor result;
   
@@ -464,7 +464,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1sensor_1get(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1time_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1time_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfTime arg1 ;
   mjfTime *argp1 ;
   
@@ -480,7 +480,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1time_1set(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1time_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1time_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfTime result;
   
@@ -496,7 +496,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1time_1get(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1act_1dyn_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1act_1dyn_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfAct arg1 ;
   mjfAct *argp1 ;
   
@@ -512,7 +512,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1act_1dyn_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1act_1dyn_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1act_1dyn_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfAct result;
   
@@ -528,7 +528,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1act_1dyn_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1act_1gain_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1act_1gain_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfAct arg1 ;
   mjfAct *argp1 ;
   
@@ -544,7 +544,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1act_1gain_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1act_1gain_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1act_1gain_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfAct result;
   
@@ -560,7 +560,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1act_1gain_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1act_1bias_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1act_1bias_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfAct arg1 ;
   mjfAct *argp1 ;
   
@@ -576,7 +576,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjcb_1act_1bias_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1act_1bias_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjcb_1act_1bias_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfAct result;
   
@@ -592,7 +592,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjcb_1act_1bias_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjCOLLISIONFUNC_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjCOLLISIONFUNC_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjfCollision (*arg1)[mjNGEOMTYPES] = (mjfCollision (*)[mjNGEOMTYPES])0 ;
   
   (void)jenv;
@@ -613,7 +613,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjCOLLISIONFUNC_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjCOLLISIONFUNC_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjCOLLISIONFUNC_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjfCollision (*result)[mjNGEOMTYPES] = 0 ;
   
@@ -625,7 +625,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjCOLLISIONFUNC_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjDISABLESTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjDISABLESTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   char **arg1 = (char **)0 ;
   
   (void)jenv;
@@ -640,7 +640,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjDISABLESTRING_1set(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjDISABLESTRING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjDISABLESTRING_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   char **result = 0 ;
   
@@ -652,7 +652,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjDISABLESTRING_1get(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjENABLESTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjENABLESTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   char **arg1 = (char **)0 ;
   
   (void)jenv;
@@ -667,7 +667,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjENABLESTRING_1set(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjENABLESTRING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjENABLESTRING_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   char **result = 0 ;
   
@@ -679,7 +679,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjENABLESTRING_1get(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjTIMERSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjTIMERSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   char **arg1 = (char **)0 ;
   
   (void)jenv;
@@ -694,7 +694,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjTIMERSTRING_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjTIMERSTRING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjTIMERSTRING_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   char **result = 0 ;
   
@@ -706,7 +706,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjTIMERSTRING_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjLABELSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjLABELSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   char **arg1 = (char **)0 ;
   
   (void)jenv;
@@ -721,7 +721,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjLABELSTRING_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjLABELSTRING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjLABELSTRING_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   char **result = 0 ;
   
@@ -733,7 +733,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjLABELSTRING_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjFRAMESTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjFRAMESTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   char **arg1 = (char **)0 ;
   
   (void)jenv;
@@ -748,7 +748,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjFRAMESTRING_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjFRAMESTRING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjFRAMESTRING_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   char **result = 0 ;
   
@@ -760,7 +760,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjFRAMESTRING_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjVISSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjVISSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   char *(*arg1)[3] = (char *(*)[3])0 ;
   
   (void)jenv;
@@ -781,7 +781,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjVISSTRING_1set(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjVISSTRING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjVISSTRING_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   char *(*result)[3] = 0 ;
   
@@ -793,7 +793,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjVISSTRING_1get(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjRNDSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjRNDSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   char *(*arg1)[3] = (char *(*)[3])0 ;
   
   (void)jenv;
@@ -814,7 +814,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjRNDSTRING_1set(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjRNDSTRING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjRNDSTRING_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   char *(*result)[3] = 0 ;
   
@@ -826,7 +826,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjRNDSTRING_1get(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjTOPICSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjTOPICSTRING_1set(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   char **arg1 = (char **)0 ;
   
   (void)jenv;
@@ -841,7 +841,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjTOPICSTRING_1set(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjTOPICSTRING_1get(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjTOPICSTRING_1get(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   char **result = 0 ;
   
@@ -853,7 +853,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjTOPICSTRING_1get(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultVFS(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1defaultVFS(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjVFS *arg1 = 0 ;
   
   (void)jenv;
@@ -863,7 +863,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultVFS(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1mountVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1mountVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jint jresult = 0 ;
   mjVFS *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -886,7 +886,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1mountVFS(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1unmountVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1unmountVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   mjVFS *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -907,7 +907,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1unmountVFS(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1addFileVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1addFileVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
   jint jresult = 0 ;
   mjVFS *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -935,7 +935,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1addFileVFS(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1addBufferVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1addBufferVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jint jarg4) {
   jint jresult = 0 ;
   mjVFS *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -960,7 +960,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1addBufferVFS(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1deleteFileVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1deleteFileVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   mjVFS *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -981,7 +981,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1deleteFileVFS(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1containsBufferVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1containsBufferVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   mjVFS *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -1002,7 +1002,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1containsBufferVFS(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1containsFileVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1containsFileVFS(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
   jint jresult = 0 ;
   mjVFS *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -1030,7 +1030,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1containsFileVFS(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1deleteVFS(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1deleteVFS(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjVFS *arg1 = 0 ;
   
   (void)jenv;
@@ -1040,7 +1040,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1deleteVFS(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1getCacheSize(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1getCacheSize(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjCache *arg1 = 0 ;
   size_t result;
@@ -1054,7 +1054,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1getCacheSize(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1getCacheCapacity(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1getCacheCapacity(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjCache *arg1 = 0 ;
   size_t result;
@@ -1068,7 +1068,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1getCacheCapacity(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1setCacheCapacity(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1setCacheCapacity(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjCache *arg1 = 0 ;
   size_t arg2 ;
@@ -1084,7 +1084,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1setCacheCapacity(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1getCache(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1getCache(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjCache *result = 0 ;
   
@@ -1096,7 +1096,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1getCache(JNIEnv *jenv, jclass jcls) 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1clearCache(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1clearCache(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjCache *arg1 = 0 ;
   
   (void)jenv;
@@ -1106,7 +1106,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1clearCache(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1loadXML(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jstring jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1loadXML(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jstring jarg3, jint jarg4) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -1136,7 +1136,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1loadXML(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1parseXML(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jstring jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1parseXML(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jstring jarg3, jint jarg4) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -1166,7 +1166,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1parseXML(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1parseXMLString(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jstring jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1parseXMLString(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jstring jarg3, jint jarg4) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -1196,7 +1196,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1parseXMLString(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1parse(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jlong jarg3, jstring jarg4, jint jarg5) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1parse(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jlong jarg3, jstring jarg4, jint jarg5) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -1233,7 +1233,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1parse(JNIEnv *jenv, jclass jcls, jst
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1encode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jstring jarg4, jlong jarg5, jstring jarg6, jint jarg7) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1encode(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jstring jarg4, jlong jarg5, jstring jarg6, jint jarg7) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjModel *arg2 = 0 ;
@@ -1278,7 +1278,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1encode(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1compile(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1compile(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -1294,7 +1294,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1compile(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1copyBack(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1copyBack(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjModel *arg2 = 0 ;
@@ -1310,7 +1310,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1copyBack(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1recompile(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1recompile(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -1330,7 +1330,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1recompile(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1loadTexture(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jstring jarg7, jint jarg8) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1loadTexture(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jstring jarg7, jint jarg8) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   int arg2 ;
@@ -1363,7 +1363,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1loadTexture(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1embedAssets(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1embedAssets(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -1386,7 +1386,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1embedAssets(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1saveLastXML(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jstring jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1saveLastXML(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jstring jarg3, jint jarg4) {
   jint jresult = 0 ;
   char *arg1 = 0 ;
   mjModel *arg2 = 0 ;
@@ -1416,14 +1416,14 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1saveLastXML(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1freeLastXML(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1freeLastXML(JNIEnv *jenv, jclass jcls) {
   (void)jenv;
   (void)jcls;
   mj_freeLastXML();
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1saveXMLString(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jstring jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1saveXMLString(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jint jarg3, jstring jarg4, jint jarg5) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -1455,7 +1455,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1saveXMLString(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1saveXML(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1saveXML(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3, jint jarg4) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -1485,7 +1485,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1saveXML(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1getXMLDependencies(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1getXMLDependencies(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2) {
   char *arg1 = 0 ;
   mjStringVec *arg2 = 0 ;
   
@@ -1502,7 +1502,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1getXMLDependencies(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1step(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1step(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -1514,7 +1514,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1step(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1step1(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1step1(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -1526,7 +1526,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1step1(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1step2(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1step2(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -1538,7 +1538,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1step2(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1forward(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1forward(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -1550,7 +1550,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1forward(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1inverse(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1inverse(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -1562,7 +1562,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1inverse(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1forwardSkip(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1forwardSkip(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -1578,7 +1578,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1forwardSkip(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1inverseSkip(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1inverseSkip(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -1594,7 +1594,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1inverseSkip(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultLROpt(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1defaultLROpt(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjLROpt *arg1 = 0 ;
   
   (void)jenv;
@@ -1604,7 +1604,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultLROpt(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultSolRefImp(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1defaultSolRefImp(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   
@@ -1616,7 +1616,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultSolRefImp(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultOption(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1defaultOption(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjOption *arg1 = 0 ;
   
   (void)jenv;
@@ -1626,7 +1626,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultOption(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultVisual(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1defaultVisual(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjVisual *arg1 = 0 ;
   
   (void)jenv;
@@ -1636,7 +1636,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1defaultVisual(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1copyModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1copyModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjModel *arg2 = 0 ;
@@ -1652,7 +1652,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1copyModel(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1saveModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1saveModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   char *arg2 = 0 ;
   void *arg3 = 0 ;
@@ -1679,7 +1679,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1saveModel(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1loadModel(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1loadModel(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -1700,7 +1700,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1loadModel(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1loadModelBuffer(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1loadModelBuffer(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   void *arg1 = 0 ;
   mjtSize arg2 ;
@@ -1722,7 +1722,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1loadModelBuffer(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1deleteModel(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1deleteModel(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjModel *arg1 = 0 ;
   
   (void)jenv;
@@ -1732,7 +1732,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1deleteModel(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1sizeModel(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1sizeModel(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjtSize result;
@@ -1750,7 +1750,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1sizeModel(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1makeData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1makeData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *result = 0 ;
@@ -1764,7 +1764,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1makeData(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1copyData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1copyData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   mjData *arg1 = 0 ;
   mjModel *arg2 = 0 ;
@@ -1782,7 +1782,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1copyData(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjv_1copyData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1copyData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   mjData *arg1 = 0 ;
   mjModel *arg2 = 0 ;
@@ -1800,7 +1800,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjv_1copyData(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetCtrl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1resetCtrl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -1812,7 +1812,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetCtrl(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1resetData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -1824,7 +1824,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetData(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetDataDebug(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jshort jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1resetDataDebug(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jshort jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   unsigned char arg3 ;
@@ -1838,7 +1838,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetDataDebug(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetDataKeyframe(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1resetDataKeyframe(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -1852,7 +1852,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetDataKeyframe(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1markStack(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1markStack(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjData *arg1 = 0 ;
   
   (void)jenv;
@@ -1862,7 +1862,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1markStack(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1freeStack(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1freeStack(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjData *arg1 = 0 ;
   
   (void)jenv;
@@ -1872,7 +1872,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1freeStack(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1stackAllocByte(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1stackAllocByte(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   mjData *arg1 = 0 ;
   size_t arg2 ;
@@ -1890,7 +1890,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1stackAllocByte(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1stackAllocNum(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1stackAllocNum(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjData *arg1 = 0 ;
   size_t arg2 ;
@@ -1906,7 +1906,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1stackAllocNum(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1stackAllocInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1stackAllocInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjData *arg1 = 0 ;
   size_t arg2 ;
@@ -1922,7 +1922,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1stackAllocInt(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1deleteData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1deleteData(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjData *arg1 = 0 ;
   
   (void)jenv;
@@ -1932,14 +1932,14 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1deleteData(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1resetCallbacks(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1resetCallbacks(JNIEnv *jenv, jclass jcls) {
   (void)jenv;
   (void)jcls;
   mj_resetCallbacks();
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1setConst(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1setConst(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -1951,7 +1951,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1setConst(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1setLengthRange(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jstring jarg5, jint jarg6) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1setLengthRange(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jstring jarg5, jint jarg6) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -1980,7 +1980,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1setLengthRange(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1makeSpec(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1makeSpec(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjSpec *result = 0 ;
   
@@ -1992,7 +1992,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1makeSpec(JNIEnv *jenv, jclass jcls) 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1copySpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1copySpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjSpec *result = 0 ;
@@ -2006,7 +2006,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1copySpec(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1deleteSpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1deleteSpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjSpec *arg1 = 0 ;
   
   (void)jenv;
@@ -2016,7 +2016,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1deleteSpec(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1activatePlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1activatePlugin(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -2037,7 +2037,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1activatePlugin(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1setDeepCopy(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setDeepCopy(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   int arg2 ;
@@ -2053,7 +2053,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1setDeepCopy(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printFormattedModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1printFormattedModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
   mjModel *arg1 = 0 ;
   char *arg2 = 0 ;
   char *arg3 = 0 ;
@@ -2077,7 +2077,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printFormattedModel(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1printModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   mjModel *arg1 = 0 ;
   char *arg2 = 0 ;
   
@@ -2094,7 +2094,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printModel(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printFormattedData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jstring jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1printFormattedData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jstring jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   char *arg3 = 0 ;
@@ -2120,7 +2120,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printFormattedData(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1printData(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   char *arg3 = 0 ;
@@ -2139,7 +2139,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printData(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1printMat(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1printMat(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
   mjtNum *arg1 = 0 ;
   int arg2 ;
   int arg3 ;
@@ -2153,7 +2153,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1printMat(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1printMatSparse(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1printMatSparse(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   mjtNum *arg1 = 0 ;
   int arg2 ;
   int *arg3 = 0 ;
@@ -2171,7 +2171,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1printMatSparse(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1printSchema(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jint jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1printSchema(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jint jarg3, jint jarg4, jint jarg5) {
   jint jresult = 0 ;
   char *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -2203,7 +2203,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1printSchema(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printScene(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1printScene(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   mjvScene *arg1 = 0 ;
   char *arg2 = 0 ;
   
@@ -2220,7 +2220,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printScene(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printFormattedScene(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1printFormattedScene(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
   mjvScene *arg1 = 0 ;
   char *arg2 = 0 ;
   char *arg3 = 0 ;
@@ -2244,7 +2244,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1printFormattedScene(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdKinematics(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1fwdKinematics(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2256,7 +2256,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdKinematics(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1fwdPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2268,7 +2268,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdPosition(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1fwdVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2280,7 +2280,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdVelocity(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdActuation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1fwdActuation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2292,7 +2292,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdActuation(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdAcceleration(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1fwdAcceleration(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2304,7 +2304,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdAcceleration(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1fwdConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2316,7 +2316,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fwdConstraint(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1Euler(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1Euler(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2328,7 +2328,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1Euler(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1RungeKutta(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1RungeKutta(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -2342,7 +2342,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1RungeKutta(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1implicit(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1implicit(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2354,7 +2354,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1implicit(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1invPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1invPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2366,7 +2366,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1invPosition(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1invVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1invVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2378,7 +2378,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1invVelocity(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1invConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1invConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2390,7 +2390,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1invConstraint(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1compareFwdInv(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1compareFwdInv(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2402,7 +2402,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1compareFwdInv(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1sensorPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1sensorPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2414,7 +2414,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1sensorPos(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1sensorVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1sensorVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2426,7 +2426,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1sensorVel(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1sensorAcc(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1sensorAcc(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2438,7 +2438,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1sensorAcc(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1energyPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1energyPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2450,7 +2450,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1energyPos(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1energyVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1energyVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2462,7 +2462,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1energyVel(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1checkPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1checkPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2474,7 +2474,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1checkPos(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1checkVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1checkVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2486,7 +2486,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1checkVel(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1checkAcc(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1checkAcc(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2498,7 +2498,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1checkAcc(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1kinematics(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1kinematics(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2510,7 +2510,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1kinematics(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1comPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1comPos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2522,7 +2522,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1comPos(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1camlight(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1camlight(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2534,7 +2534,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1camlight(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1flex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1flex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2546,7 +2546,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1flex(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1tendon(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1tendon(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2558,7 +2558,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1tendon(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1transmission(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1transmission(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2570,7 +2570,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1transmission(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1crb(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1crb(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2582,7 +2582,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1crb(JNIEnv *jenv, jclass jcls, jlong 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1makeM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1makeM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2594,7 +2594,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1makeM(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1factorM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1factorM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2606,7 +2606,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1factorM(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1solveM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1solveM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -2624,7 +2624,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1solveM(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1solveM2(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1solveM2(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -2644,7 +2644,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1solveM2(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1comVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1comVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2656,7 +2656,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1comVel(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1passive(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1passive(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2668,7 +2668,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1passive(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1subtreeVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1subtreeVel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2680,7 +2680,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1subtreeVel(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1rne(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1rne(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -2696,7 +2696,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1rne(JNIEnv *jenv, jclass jcls, jlong 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1rnePostConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1rnePostConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2708,7 +2708,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1rnePostConstraint(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1maxContact(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1maxContact(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jint jarg4) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   int arg2 ;
@@ -2728,7 +2728,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1maxContact(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1collision(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1collision(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2740,7 +2740,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1collision(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1makeConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1makeConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2752,7 +2752,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1makeConstraint(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1island(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1island(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2764,7 +2764,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1island(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1projectConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1projectConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2776,7 +2776,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1projectConstraint(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1referenceConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1referenceConstraint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   
@@ -2788,7 +2788,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1referenceConstraint(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1constraintUpdate(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1constraintUpdate(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -2807,7 +2807,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1constraintUpdate(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1stateSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1stateSize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   int arg2 ;
@@ -2823,7 +2823,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1stateSize(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1getState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1getState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -2839,7 +2839,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1getState(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1extractState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1extractState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jint jarg5) {
   mjModel *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -2857,7 +2857,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1extractState(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1setState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1setState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -2873,7 +2873,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1setState(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1copyState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1copyState(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjData *arg3 = 0 ;
@@ -2889,7 +2889,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1copyState(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1readCtrl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1readCtrl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -2919,7 +2919,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1readCtrl(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1readSensor(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1readSensor(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -2949,7 +2949,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1readSensor(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1initCtrlHistory(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1initCtrlHistory(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -2967,7 +2967,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1initCtrlHistory(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1initSensorHistory(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1initSensorHistory(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -2993,7 +2993,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1initSensorHistory(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1setKeyframe(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1setKeyframe(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -3007,7 +3007,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1setKeyframe(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1addContact(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1addContact(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -3025,7 +3025,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1addContact(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1isPyramidal(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1isPyramidal(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   int result;
@@ -3039,7 +3039,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1isPyramidal(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1isSparse(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1isSparse(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   int result;
@@ -3053,7 +3053,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1isSparse(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1isDual(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1isDual(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   int result;
@@ -3067,7 +3067,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1isDual(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1mulJacVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1mulJacVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3083,7 +3083,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1mulJacVec(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1mulJacTVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1mulJacTVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3099,7 +3099,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1mulJacTVec(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jac(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1jac(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3120,7 +3120,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jac(JNIEnv *jenv, jclass jcls, jlong 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacBody(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1jacBody(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3138,7 +3138,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacBody(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacBodyCom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1jacBodyCom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3156,7 +3156,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacBodyCom(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacSubtreeCom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1jacSubtreeCom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3172,7 +3172,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacSubtreeCom(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1jacGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3190,7 +3190,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacGeom(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacSite(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1jacSite(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3208,7 +3208,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacSite(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacPointAxis(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jint jarg7) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1jacPointAxis(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jint jarg7) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3232,7 +3232,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacPointAxis(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacDot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1jacDot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3253,7 +3253,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1jacDot(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1angmomMat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1angmomMat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3269,7 +3269,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1angmomMat(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1name2id(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1name2id(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   int arg2 ;
@@ -3292,7 +3292,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1name2id(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mj_1id2name(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1id2name(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
   jstring jresult = 0 ;
   mjModel *arg1 = 0 ;
   int arg2 ;
@@ -3310,7 +3310,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mj_1id2name(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mj_1actuatorInputName(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1actuatorInputName(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
   jstring jresult = 0 ;
   mjModel *arg1 = 0 ;
   int arg2 ;
@@ -3328,7 +3328,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mj_1actuatorInputName(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fullM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1fullM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3342,7 +3342,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1fullM(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1mulM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1mulM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3358,7 +3358,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1mulM(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1mulM2(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1mulM2(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3374,7 +3374,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1mulM2(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1addM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1addM(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3394,7 +3394,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1addM(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1applyFT(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1applyFT(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -3419,7 +3419,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1applyFT(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1objectVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1objectVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jint jarg6) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -3440,7 +3440,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1objectVelocity(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1objectAcceleration(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1objectAcceleration(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jint jarg6) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -3461,7 +3461,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1objectAcceleration(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1geomDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1geomDistance(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -3496,7 +3496,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1geomDistance(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1insideSite(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1insideSite(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -3517,7 +3517,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1insideSite(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1contactForce(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1contactForce(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -3534,7 +3534,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1contactForce(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1differentiatePos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1differentiatePos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   mjModel *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum arg3 ;
@@ -3558,7 +3558,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1differentiatePos(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1integratePos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1integratePos(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -3580,7 +3580,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1integratePos(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1normalizeQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1normalizeQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   
@@ -3592,7 +3592,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1normalizeQuat(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1local2Global(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1local2Global(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
   mjData *arg1 = 0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -3624,7 +3624,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1local2Global(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1getTotalmass(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1getTotalmass(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjtNum result;
@@ -3642,7 +3642,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1getTotalmass(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1setTotalmass(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1setTotalmass(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjtNum arg2 ;
   mjtNum *argp2 ;
@@ -3660,7 +3660,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1setTotalmass(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mj_1getPluginConfig(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1getPluginConfig(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3) {
   jstring jresult = 0 ;
   mjModel *arg1 = 0 ;
   int arg2 ;
@@ -3683,7 +3683,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mj_1getPluginConfig(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1loadPluginLibrary(JNIEnv *jenv, jclass jcls, jstring jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1loadPluginLibrary(JNIEnv *jenv, jclass jcls, jstring jarg1) {
   char *arg1 = 0 ;
   
   (void)jenv;
@@ -3698,7 +3698,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1loadPluginLibrary(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1loadAllPluginLibraries(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1loadAllPluginLibraries(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2) {
   char *arg1 = 0 ;
   mjfPluginLibraryLoadCallback arg2 ;
   mjfPluginLibraryLoadCallback *argp2 ;
@@ -3721,7 +3721,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1loadAllPluginLibraries(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1version(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1version(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -3733,7 +3733,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mj_1version(JNIEnv *jenv, jclass jcls) {
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mj_1versionString(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1versionString(JNIEnv *jenv, jclass jcls) {
   jstring jresult = 0 ;
   char *result = 0 ;
   
@@ -3745,7 +3745,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mj_1versionString(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1ray(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jint jarg7, jlong jarg8, jlong jarg9) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1ray(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jint jarg7, jlong jarg8, jlong jarg9) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -3789,7 +3789,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1ray(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1multiRay(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jint jarg7, jlong jarg8, jlong jarg9, jlong jarg10, jint jarg11, jlong jarg12) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1multiRay(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jint jarg7, jlong jarg8, jlong jarg9, jlong jarg10, jint jarg11, jlong jarg12) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -3834,7 +3834,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1multiRay(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1rayHfield(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1rayHfield(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -3865,7 +3865,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1rayHfield(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1rayMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1rayMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -3896,7 +3896,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1rayMesh(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1rayGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1rayGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
   jlong jresult = 0 ;
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
@@ -3932,7 +3932,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1rayGeom(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1rayFlex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jint jarg8, jlong jarg9, jlong jarg10, jlong jarg11, jlong jarg12) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1rayFlex(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jint jarg8, jlong jarg9, jlong jarg10, jlong jarg11, jlong jarg12) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -4000,7 +4000,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mj_1rayFlex(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1raySkin(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1raySkin(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7) {
   jlong jresult = 0 ;
   int arg1 ;
   int arg2 ;
@@ -4033,7 +4033,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1raySkin(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultCamera(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1defaultCamera(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjvCamera *arg1 = 0 ;
   
   (void)jenv;
@@ -4043,7 +4043,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultCamera(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultFreeCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1defaultFreeCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjvCamera *arg2 = 0 ;
   
@@ -4055,7 +4055,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultFreeCamera(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultPerturb(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1defaultPerturb(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjvPerturb *arg1 = 0 ;
   
   (void)jenv;
@@ -4065,7 +4065,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultPerturb(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1room2model(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1room2model(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -4087,7 +4087,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1room2model(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1model2room(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1model2room(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -4109,7 +4109,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1model2room(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1cameraInModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1cameraInModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -4128,7 +4128,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1cameraInModel(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1cameraInRoom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1cameraInRoom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -4147,7 +4147,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1cameraInRoom(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjv_1frustumHeight(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1frustumHeight(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjvScene *arg1 = 0 ;
   mjtNum result;
@@ -4165,7 +4165,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjv_1frustumHeight(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1alignToCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1alignToCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -4182,7 +4182,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1alignToCamera(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1moveCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1moveCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   mjModel *arg1 = 0 ;
   int arg2 ;
   mjtNum arg3 ;
@@ -4212,7 +4212,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1moveCamera(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1movePerturb(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1movePerturb(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   int arg3 ;
@@ -4246,7 +4246,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1movePerturb(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1moveModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1moveModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   mjModel *arg1 = 0 ;
   int arg2 ;
   mjtNum arg3 ;
@@ -4279,7 +4279,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1moveModel(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1initPerturb(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1initPerturb(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjvScene *arg3 = 0 ;
@@ -4295,7 +4295,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1initPerturb(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1applyPerturbPose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1applyPerturbPose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjvPerturb *arg3 = 0 ;
@@ -4311,7 +4311,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1applyPerturbPose(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1applyPerturbForce(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1applyPerturbForce(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjvPerturb *arg3 = 0 ;
@@ -4325,7 +4325,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1applyPerturbForce(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjv_1averageCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1averageCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjvGLCamera *arg1 = 0 ;
   mjvGLCamera *arg2 = 0 ;
@@ -4345,7 +4345,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjv_1averageCamera(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjv_1camera2GLCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1camera2GLCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -4367,7 +4367,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjv_1camera2GLCamera(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjv_1select(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jlong jarg10, jlong jarg11) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1select(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jlong jarg10, jlong jarg11) {
   jint jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -4423,7 +4423,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjv_1select(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultOption(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1defaultOption(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjvOption *arg1 = 0 ;
   
   (void)jenv;
@@ -4433,7 +4433,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultOption(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultFigure(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1defaultFigure(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjvFigure *arg1 = 0 ;
   
   (void)jenv;
@@ -4443,7 +4443,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultFigure(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1initGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1initGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   mjvGeom *arg1 = 0 ;
   int arg2 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -4467,7 +4467,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1initGeom(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1connector(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1connector(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   mjvGeom *arg1 = 0 ;
   int arg2 ;
   mjtNum arg3 ;
@@ -4493,7 +4493,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1connector(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultScene(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1defaultScene(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjvScene *arg1 = 0 ;
   
   (void)jenv;
@@ -4503,7 +4503,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1defaultScene(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1makeScene(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1makeScene(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjModel *arg1 = 0 ;
   mjvScene *arg2 = 0 ;
   int arg3 ;
@@ -4517,7 +4517,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1makeScene(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1freeScene(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1freeScene(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjvScene *arg1 = 0 ;
   
   (void)jenv;
@@ -4527,7 +4527,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1freeScene(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1updateScene(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1updateScene(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjvOption *arg3 = 0 ;
@@ -4549,7 +4549,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1updateScene(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1copyModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1copyModel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjModel *arg1 = 0 ;
   mjModel *arg2 = 0 ;
   
@@ -4561,7 +4561,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1copyModel(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1addGeoms(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1addGeoms(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5, jlong jarg6) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjvOption *arg3 = 0 ;
@@ -4581,7 +4581,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1addGeoms(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1makeLights(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1makeLights(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjvScene *arg3 = 0 ;
@@ -4595,7 +4595,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1makeLights(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1updateCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1updateCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjvCamera *arg3 = 0 ;
@@ -4611,7 +4611,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1updateCamera(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1updateSkin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1updateSkin(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjvScene *arg3 = 0 ;
@@ -4625,7 +4625,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1updateSkin(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1cameraFrame(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1cameraFrame(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -4649,7 +4649,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1cameraFrame(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1cameraFrustum(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjv_1cameraFrustum(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   float *arg1 = (float *)0 ;
   float *arg2 = (float *)0 ;
   float *arg3 = (float *)0 ;
@@ -4670,7 +4670,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjv_1cameraFrustum(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1defaultContext(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1defaultContext(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjrContext *arg1 = 0 ;
   
   (void)jenv;
@@ -4680,7 +4680,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1defaultContext(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1defaultRendererInfo(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1defaultRendererInfo(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjrRendererInfo *arg1 = 0 ;
   
   (void)jenv;
@@ -4690,7 +4690,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1defaultRendererInfo(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1getRendererInfo(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1getRendererInfo(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjrRendererInfo *arg1 = 0 ;
   
   (void)jenv;
@@ -4700,7 +4700,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1getRendererInfo(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1makeContext(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1makeContext(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjModel *arg1 = 0 ;
   mjrContext *arg2 = 0 ;
   int arg3 ;
@@ -4714,7 +4714,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1makeContext(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1changeFont(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1changeFont(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2) {
   int arg1 ;
   mjrContext *arg2 = 0 ;
   
@@ -4726,7 +4726,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1changeFont(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1addAux(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jint jarg3, jint jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1addAux(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jint jarg3, jint jarg4, jlong jarg5) {
   int arg1 ;
   int arg2 ;
   int arg3 ;
@@ -4744,7 +4744,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1addAux(JNIEnv *jenv, jclass jcls, ji
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1freeContext(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1freeContext(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjrContext *arg1 = 0 ;
   
   (void)jenv;
@@ -4754,7 +4754,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1freeContext(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1resizeOffscreen(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1resizeOffscreen(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jlong jarg3) {
   int arg1 ;
   int arg2 ;
   mjrContext *arg3 = 0 ;
@@ -4768,7 +4768,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1resizeOffscreen(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1uploadTexture(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1uploadTexture(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjModel *arg1 = 0 ;
   mjrContext *arg2 = 0 ;
   int arg3 ;
@@ -4782,7 +4782,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1uploadTexture(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1uploadMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1uploadMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjModel *arg1 = 0 ;
   mjrContext *arg2 = 0 ;
   int arg3 ;
@@ -4796,7 +4796,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1uploadMesh(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1uploadHField(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1uploadHField(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjModel *arg1 = 0 ;
   mjrContext *arg2 = 0 ;
   int arg3 ;
@@ -4810,7 +4810,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1uploadHField(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1restoreBuffer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1restoreBuffer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjrContext *arg1 = 0 ;
   
   (void)jenv;
@@ -4820,7 +4820,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1restoreBuffer(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1setBuffer(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1setBuffer(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2) {
   int arg1 ;
   mjrContext *arg2 = 0 ;
   
@@ -4832,7 +4832,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1setBuffer(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1readPixels(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1readPixels(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   unsigned char *arg1 = 0 ;
   float *arg2 = 0 ;
   mjrRect arg3 ;
@@ -4854,7 +4854,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1readPixels(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1drawPixels(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1drawPixels(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   unsigned char *arg1 = 0 ;
   float *arg2 = 0 ;
   mjrRect arg3 ;
@@ -4876,7 +4876,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1drawPixels(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1blitBuffer(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1blitBuffer(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5) {
   mjrRect arg1 ;
   mjrRect arg2 ;
   int arg3 ;
@@ -4906,7 +4906,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1blitBuffer(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1setAux(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1setAux(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2) {
   int arg1 ;
   mjrContext *arg2 = 0 ;
   
@@ -4918,7 +4918,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1setAux(JNIEnv *jenv, jclass jcls, ji
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1blitAux(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1blitAux(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5) {
   int arg1 ;
   mjrRect arg2 ;
   int arg3 ;
@@ -4942,7 +4942,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1blitAux(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1text(JNIEnv *jenv, jclass jcls, jint jarg1, jstring jarg2, jlong jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1text(JNIEnv *jenv, jclass jcls, jint jarg1, jstring jarg2, jlong jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8) {
   int arg1 ;
   char *arg2 = 0 ;
   mjrContext *arg3 = 0 ;
@@ -4971,7 +4971,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1text(JNIEnv *jenv, jclass jcls, jint
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1overlay(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jlong jarg3, jstring jarg4, jstring jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1overlay(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jlong jarg3, jstring jarg4, jstring jarg5, jlong jarg6) {
   int arg1 ;
   int arg2 ;
   mjrRect arg3 ;
@@ -5007,7 +5007,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1overlay(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjr_1maxViewport(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1maxViewport(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjrContext *arg1 = 0 ;
   mjrRect result;
@@ -5025,7 +5025,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjr_1maxViewport(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1rectangle(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1rectangle(JNIEnv *jenv, jclass jcls, jlong jarg1, jfloat jarg2, jfloat jarg3, jfloat jarg4, jfloat jarg5) {
   mjrRect arg1 ;
   float arg2 ;
   float arg3 ;
@@ -5049,7 +5049,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1rectangle(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1label(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8, jfloat jarg9, jfloat jarg10, jlong jarg11) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1label(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3, jfloat jarg4, jfloat jarg5, jfloat jarg6, jfloat jarg7, jfloat jarg8, jfloat jarg9, jfloat jarg10, jlong jarg11) {
   mjrRect arg1 ;
   int arg2 ;
   char *arg3 = 0 ;
@@ -5090,7 +5090,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1label(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1figure(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1figure(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjrRect arg1 ;
   mjvFigure *arg2 = 0 ;
   mjrContext *arg3 = 0 ;
@@ -5110,7 +5110,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1figure(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1render(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1render(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjrRect arg1 ;
   mjvScene *arg2 = 0 ;
   mjrContext *arg3 = 0 ;
@@ -5130,14 +5130,14 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1render(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjr_1finish(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1finish(JNIEnv *jenv, jclass jcls) {
   (void)jenv;
   (void)jcls;
   mjr_finish();
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjr_1getError(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1getError(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -5149,7 +5149,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjr_1getError(JNIEnv *jenv, jclass jcls) 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjr_1findRect(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jint jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjr_1findRect(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jint jarg3, jlong jarg4) {
   jint jresult = 0 ;
   int arg1 ;
   int arg2 ;
@@ -5169,7 +5169,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjr_1findRect(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjui_1themeSpacing(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjui_1themeSpacing(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   mjuiThemeSpacing result;
@@ -5187,7 +5187,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjui_1themeSpacing(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjui_1themeColor(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjui_1themeColor(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   mjuiThemeColor result;
@@ -5205,7 +5205,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjui_1themeColor(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1add(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjui_1add(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjUI *arg1 = 0 ;
   mjuiDef *arg2 = 0 ;
   
@@ -5217,7 +5217,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1add(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1addToSection(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjui_1addToSection(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   mjUI *arg1 = 0 ;
   int arg2 ;
   mjuiDef *arg3 = 0 ;
@@ -5231,7 +5231,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1addToSection(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1resize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjui_1resize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjUI *arg1 = 0 ;
   mjrContext *arg2 = 0 ;
   
@@ -5243,7 +5243,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1resize(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1update(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjui_1update(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   int arg1 ;
   int arg2 ;
   mjUI *arg3 = 0 ;
@@ -5261,7 +5261,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1update(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjui_1event(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjui_1event(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   mjUI *arg1 = 0 ;
   mjuiState *arg2 = 0 ;
@@ -5279,7 +5279,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjui_1event(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1render(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjui_1render(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjUI *arg1 = 0 ;
   mjuiState *arg2 = 0 ;
   mjrContext *arg3 = 0 ;
@@ -5293,7 +5293,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjui_1render(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1error(JNIEnv *jenv, jclass jcls, jstring jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1error(JNIEnv *jenv, jclass jcls, jstring jarg1) {
   char *arg1 = 0 ;
   void *arg2 = 0 ;
   
@@ -5309,7 +5309,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1error(JNIEnv *jenv, jclass jcls, jst
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1warning(JNIEnv *jenv, jclass jcls, jstring jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1warning(JNIEnv *jenv, jclass jcls, jstring jarg1) {
   char *arg1 = 0 ;
   void *arg2 = 0 ;
   
@@ -5325,14 +5325,14 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1warning(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1clearHandlers(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1clearHandlers(JNIEnv *jenv, jclass jcls) {
   (void)jenv;
   (void)jcls;
   mju_clearHandlers();
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1setLogHandler(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1setLogHandler(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjfLogHandler arg1 ;
   mjfLogHandler *argp1 ;
@@ -5356,7 +5356,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1setLogHandler(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1getLogConfig(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1getLogConfig(JNIEnv *jenv, jclass jcls) {
   jlong jresult = 0 ;
   mjLogConfig result;
   
@@ -5372,7 +5372,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1getLogConfig(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1setLogConfig(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1setLogConfig(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjLogConfig arg1 ;
   mjLogConfig *argp1 ;
   
@@ -5388,7 +5388,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1setLogConfig(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1info(JNIEnv *jenv, jclass jcls, jint jarg1, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1info(JNIEnv *jenv, jclass jcls, jint jarg1, jstring jarg2) {
   int arg1 ;
   char *arg2 = 0 ;
   void *arg3 = 0 ;
@@ -5406,7 +5406,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1info(JNIEnv *jenv, jclass jcls, jint
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1message(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1message(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjLogMessage *arg1 = 0 ;
   
   (void)jenv;
@@ -5416,7 +5416,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1message(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1malloc(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1malloc(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   size_t arg1 ;
   void *result = 0 ;
@@ -5430,7 +5430,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1malloc(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1free(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1free(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   void *arg1 = 0 ;
   
   (void)jenv;
@@ -5440,7 +5440,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1free(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1warning(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mj_1warning(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3) {
   mjData *arg1 = 0 ;
   int arg2 ;
   int arg3 ;
@@ -5454,7 +5454,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mj_1warning(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1writeLog(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1writeLog(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2) {
   char *arg1 = 0 ;
   char *arg2 = 0 ;
   
@@ -5476,7 +5476,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1writeLog(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1getError(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getError(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jstring jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *result = 0 ;
@@ -5490,7 +5490,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1getError(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getTimer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getTimer(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   double *result = 0 ;
@@ -5504,7 +5504,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getTimer(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1isWarning(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1isWarning(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   int result;
@@ -5518,7 +5518,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1isWarning(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1numWarnings(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1numWarnings(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   int result;
@@ -5532,7 +5532,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1numWarnings(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1getWarning(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getWarning(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jstring jresult = 0 ;
   mjSpec *arg1 = 0 ;
   int arg2 ;
@@ -5548,7 +5548,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1getWarning(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1zero3(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1zero3(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjtNum *arg1 = (mjtNum *)0 ;
   
   (void)jenv;
@@ -5559,7 +5559,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1zero3(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1copy3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1copy3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   
@@ -5573,7 +5573,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1copy3(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1scl3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1scl3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum arg3 ;
@@ -5595,7 +5595,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1scl3(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1add3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1add3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -5612,7 +5612,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1add3(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sub3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1sub3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -5629,7 +5629,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sub3(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addTo3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1addTo3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   
@@ -5643,7 +5643,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addTo3(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1subFrom3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1subFrom3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   
@@ -5657,7 +5657,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1subFrom3(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addToScl3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1addToScl3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum arg3 ;
@@ -5679,7 +5679,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addToScl3(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addScl3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1addScl3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -5704,7 +5704,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addScl3(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1normalize3(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1normalize3(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum result;
@@ -5723,7 +5723,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1normalize3(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1norm3(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1norm3(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum result;
@@ -5742,7 +5742,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1norm3(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1dot3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1dot3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
@@ -5764,7 +5764,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1dot3(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1dist3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1dist3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
@@ -5786,7 +5786,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1dist3(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatVec3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulMatVec3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -5803,7 +5803,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatVec3(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatTVec3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulMatTVec3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -5820,7 +5820,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatTVec3(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1cross(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1cross(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -5837,7 +5837,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1cross(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1zero4(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1zero4(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjtNum *arg1 = (mjtNum *)0 ;
   
   (void)jenv;
@@ -5848,7 +5848,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1zero4(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1unit4(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1unit4(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjtNum *arg1 = (mjtNum *)0 ;
   
   (void)jenv;
@@ -5859,7 +5859,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1unit4(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1copy4(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1copy4(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   
@@ -5873,7 +5873,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1copy4(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1normalize4(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1normalize4(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum result;
@@ -5892,7 +5892,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1normalize4(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1zero(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1zero(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   mjtNum *arg1 = 0 ;
   int arg2 ;
   
@@ -5904,7 +5904,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1zero(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1fill(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1fill(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjtNum *arg1 = 0 ;
   mjtNum arg2 ;
   int arg3 ;
@@ -5924,7 +5924,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1fill(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1copy(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1copy(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -5938,7 +5938,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1copy(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1sum(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1sum(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jlong jresult = 0 ;
   mjtNum *arg1 = 0 ;
   int arg2 ;
@@ -5958,7 +5958,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1sum(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1L1(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1L1(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jlong jresult = 0 ;
   mjtNum *arg1 = 0 ;
   int arg2 ;
@@ -5978,7 +5978,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1L1(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1scl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1scl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum arg3 ;
@@ -6000,7 +6000,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1scl(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1add(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1add(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6016,7 +6016,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1add(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sub(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1sub(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6032,7 +6032,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sub(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addTo(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1addTo(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -6046,7 +6046,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addTo(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1subFrom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1subFrom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -6060,7 +6060,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1subFrom(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addToScl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1addToScl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum arg3 ;
@@ -6082,7 +6082,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addToScl(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addScl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1addScl(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6106,7 +6106,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1addScl(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1normalize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1normalize(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jlong jresult = 0 ;
   mjtNum *arg1 = 0 ;
   int arg2 ;
@@ -6126,7 +6126,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1normalize(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1norm(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1norm(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jlong jresult = 0 ;
   mjtNum *arg1 = 0 ;
   int arg2 ;
@@ -6146,7 +6146,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1norm(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1dot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1dot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   jlong jresult = 0 ;
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
@@ -6168,7 +6168,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1dot(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulMatVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6186,7 +6186,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatVec(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatTVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulMatTVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6204,7 +6204,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatTVec(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1mulVecMatVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulVecMatVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   jlong jresult = 0 ;
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
@@ -6228,7 +6228,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1mulVecMatVec(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1transpose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1transpose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -6244,7 +6244,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1transpose(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1symmetrize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1symmetrize(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -6258,7 +6258,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1symmetrize(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1eye(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1eye(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   mjtNum *arg1 = 0 ;
   int arg2 ;
   
@@ -6270,7 +6270,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1eye(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatMat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulMatMat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6290,7 +6290,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatMat(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatMatT(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulMatMatT(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6310,7 +6310,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatMatT(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatTMat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulMatTMat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6330,7 +6330,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulMatTMat(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sqrMatTD(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1sqrMatTD(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6348,7 +6348,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sqrMatTD(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1transformSpatial(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1transformSpatial(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   int arg3 ;
@@ -6373,7 +6373,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1transformSpatial(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1dense2sparse(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jint jarg8) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1dense2sparse(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jint jarg8) {
   jint jresult = 0 ;
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
@@ -6401,7 +6401,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1dense2sparse(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sparse2dense(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6, jlong jarg7) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1sparse2dense(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6, jlong jarg7) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -6423,7 +6423,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sparse2dense(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sym2dense(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1sym2dense(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -6443,7 +6443,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1sym2dense(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1rotVecQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1rotVecQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -6460,7 +6460,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1rotVecQuat(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1negQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1negQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   
@@ -6474,7 +6474,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1negQuat(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -6491,7 +6491,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulQuat(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulQuatAxis(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulQuatAxis(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -6508,7 +6508,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulQuatAxis(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1axisAngle2Quat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1axisAngle2Quat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum arg3 ;
@@ -6530,7 +6530,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1axisAngle2Quat(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1quat2Vel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1quat2Vel(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum arg3 ;
@@ -6552,7 +6552,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1quat2Vel(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1subQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1subQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -6569,7 +6569,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1subQuat(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1quat2Mat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1quat2Mat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   
@@ -6583,7 +6583,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1quat2Mat(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mat2Quat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mat2Quat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   
@@ -6597,7 +6597,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mat2Quat(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1derivQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1derivQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -6614,7 +6614,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1derivQuat(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1quatIntegrate(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1quatIntegrate(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum arg3 ;
@@ -6636,7 +6636,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1quatIntegrate(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1quatZ2Vec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1quatZ2Vec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   
@@ -6650,7 +6650,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1quatZ2Vec(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1mat2Rot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mat2Rot(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
@@ -6668,7 +6668,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1mat2Rot(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1euler2Quat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1euler2Quat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   char *arg3 = 0 ;
@@ -6689,7 +6689,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1euler2Quat(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulPose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1mulPose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -6715,7 +6715,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1mulPose(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1negPose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1negPose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -6735,7 +6735,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1negPose(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1trnVecPose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1trnVecPose(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -6755,7 +6755,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1trnVecPose(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1cholFactor(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1cholFactor(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jlong jarg3) {
   jint jresult = 0 ;
   mjtNum *arg1 = 0 ;
   int arg2 ;
@@ -6779,7 +6779,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1cholFactor(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1cholSolve(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1cholSolve(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6795,7 +6795,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1cholSolve(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1cholUpdate(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1cholUpdate(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4) {
   jint jresult = 0 ;
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
@@ -6815,7 +6815,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1cholUpdate(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1cholFactorBand(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1cholFactorBand(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jint jarg3, jint jarg4, jlong jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   mjtNum *arg1 = 0 ;
   int arg2 ;
@@ -6855,7 +6855,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1cholFactorBand(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1cholSolveBand(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1cholSolveBand(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6875,7 +6875,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1cholSolveBand(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1band2Dense(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jint jarg5, jlong jarg6) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1band2Dense(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jint jarg5, jlong jarg6) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -6901,7 +6901,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1band2Dense(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1dense2Band(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jint jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1dense2Band(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3, jint jarg4, jint jarg5) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -6919,7 +6919,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1dense2Band(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1bandMulMatVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6, jint jarg7, jlong jarg8) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1bandMulMatVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4, jint jarg5, jint jarg6, jint jarg7, jlong jarg8) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -6949,7 +6949,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1bandMulMatVec(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1bandDiag(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jint jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1bandDiag(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jint jarg3, jint jarg4) {
   jint jresult = 0 ;
   int arg1 ;
   int arg2 ;
@@ -6969,7 +6969,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1bandDiag(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1eig3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1eig3(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   jint jresult = 0 ;
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
@@ -6993,7 +6993,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1eig3(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1boxQP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jlong jarg8) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1boxQP(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jlong jarg8) {
   jint jresult = 0 ;
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
@@ -7021,7 +7021,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1boxQP(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1boxQPmalloc(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jlong jarg8) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1boxQPmalloc(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jint jarg6, jlong jarg7, jlong jarg8) {
   mjtNum **arg1 = 0 ;
   mjtNum **arg2 = 0 ;
   int **arg3 = 0 ;
@@ -7045,7 +7045,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1boxQPmalloc(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1muscleGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1muscleGain(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum arg2 ;
@@ -7091,7 +7091,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1muscleGain(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1muscleBias(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1muscleBias(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum *arg2 = (mjtNum *)0 ;
@@ -7129,7 +7129,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1muscleBias(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1muscleDynamics(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1muscleDynamics(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum arg2 ;
@@ -7164,7 +7164,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1muscleDynamics(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1encodePyramid(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1encodePyramid(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -7180,7 +7180,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1encodePyramid(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1decodePyramid(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1decodePyramid(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   mjtNum *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   mjtNum *arg3 = 0 ;
@@ -7196,7 +7196,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1decodePyramid(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1springDamper(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1springDamper(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum arg2 ;
@@ -7252,7 +7252,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1springDamper(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1min(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1min(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum arg2 ;
@@ -7284,7 +7284,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1min(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1max(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1max(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum arg2 ;
@@ -7316,7 +7316,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1max(JNIEnv *jenv, jclass jcls, jlon
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1clip(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1clip(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum arg2 ;
@@ -7356,7 +7356,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1clip(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1sign(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1sign(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum *argp1 ;
@@ -7380,7 +7380,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1sign(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1round(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1round(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjtNum arg1 ;
   mjtNum *argp1 ;
@@ -7400,7 +7400,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1round(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mju_1type2Str(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1type2Str(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jstring jresult = 0 ;
   int arg1 ;
   char *result = 0 ;
@@ -7414,7 +7414,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mju_1type2Str(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1str2Type(JNIEnv *jenv, jclass jcls, jstring jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1str2Type(JNIEnv *jenv, jclass jcls, jstring jarg1) {
   jint jresult = 0 ;
   char *arg1 = 0 ;
   int result;
@@ -7433,7 +7433,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1str2Type(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mju_1writeNumBytes(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1writeNumBytes(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jstring jresult = 0 ;
   size_t arg1 ;
   char *result = 0 ;
@@ -7447,7 +7447,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mju_1writeNumBytes(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mju_1warningText(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1warningText(JNIEnv *jenv, jclass jcls, jint jarg1, jlong jarg2) {
   jstring jresult = 0 ;
   int arg1 ;
   size_t arg2 ;
@@ -7463,7 +7463,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mju_1warningText(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1isBad(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1isBad(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjtNum arg1 ;
   mjtNum *argp1 ;
@@ -7483,7 +7483,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1isBad(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1isZero(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1isZero(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jint jresult = 0 ;
   mjtNum *arg1 = 0 ;
   int arg2 ;
@@ -7499,7 +7499,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1isZero(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1standardNormal(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1standardNormal(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjtNum *arg1 = 0 ;
   mjtNum result;
@@ -7517,7 +7517,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1standardNormal(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1f2n(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1f2n(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjtNum *arg1 = 0 ;
   float *arg2 = 0 ;
   int arg3 ;
@@ -7531,7 +7531,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1f2n(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1n2f(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1n2f(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   float *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -7545,7 +7545,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1n2f(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1d2n(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1d2n(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjtNum *arg1 = 0 ;
   double *arg2 = 0 ;
   int arg3 ;
@@ -7559,7 +7559,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1d2n(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1n2d(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1n2d(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   double *arg1 = 0 ;
   mjtNum *arg2 = 0 ;
   int arg3 ;
@@ -7573,7 +7573,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1n2d(JNIEnv *jenv, jclass jcls, jlong
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1insertionSort(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1insertionSort(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   mjtNum *arg1 = 0 ;
   int arg2 ;
   
@@ -7585,7 +7585,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1insertionSort(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1insertionSortInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1insertionSortInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   int *arg1 = 0 ;
   int arg2 ;
   
@@ -7597,7 +7597,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1insertionSortInt(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1Halton(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1Halton(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2) {
   jlong jresult = 0 ;
   int arg1 ;
   int arg2 ;
@@ -7617,7 +7617,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1Halton(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mju_1strncpy(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jint jarg3) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1strncpy(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jint jarg3) {
   jstring jresult = 0 ;
   char *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -7645,7 +7645,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mju_1strncpy(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1sigmoid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1sigmoid(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjtNum arg1 ;
   mjtNum *argp1 ;
@@ -7669,7 +7669,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1sigmoid(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjc_1getSDF(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjc_1getSDF(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   int arg2 ;
@@ -7685,7 +7685,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjc_1getSDF(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjc_1distance(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjc_1distance(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   jlong jresult = 0 ;
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
@@ -7710,7 +7710,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjc_1distance(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjc_1gradient(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjc_1gradient(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjSDF *arg3 = 0 ;
@@ -7730,7 +7730,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjc_1gradient(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjd_1transitionFD(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjd_1transitionFD(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum arg3 ;
@@ -7766,7 +7766,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjd_1transitionFD(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjd_1inverseFD(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jlong jarg10, jlong jarg11) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjd_1inverseFD(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jlong jarg10, jlong jarg11) {
   mjModel *arg1 = 0 ;
   mjData *arg2 = 0 ;
   mjtNum arg3 ;
@@ -7808,7 +7808,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjd_1inverseFD(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjd_1subQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjd_1subQuat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum *arg2 = (mjtNum *)0 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -7828,7 +7828,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjd_1subQuat(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjd_1quatIntegrate(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjd_1quatIntegrate(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jlong jarg5) {
   mjtNum *arg1 = (mjtNum *)0 ;
   mjtNum arg2 ;
   mjtNum *arg3 = (mjtNum *)0 ;
@@ -7856,7 +7856,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjd_1quatIntegrate(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1defaultPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1defaultPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjpPlugin *arg1 = 0 ;
   
   (void)jenv;
@@ -7866,7 +7866,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1defaultPlugin(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1registerPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1registerPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjpPlugin *arg1 = 0 ;
   int result;
@@ -7880,7 +7880,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1registerPlugin(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1pluginCount(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1pluginCount(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -7892,7 +7892,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1pluginCount(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1getPlugin(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1getPlugin(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   int *arg2 = 0 ;
@@ -7913,7 +7913,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1getPlugin(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1getPluginAtSlot(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1getPluginAtSlot(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   mjpPlugin *result = 0 ;
@@ -7927,7 +7927,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1getPluginAtSlot(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1defaultProvider(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1defaultProvider(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjpResourceProvider *arg1 = 0 ;
   
   (void)jenv;
@@ -7937,7 +7937,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1defaultProvider(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1registerProvider(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1registerProvider(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjpResourceProvider *arg1 = 0 ;
   int result;
@@ -7951,7 +7951,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1registerProvider(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1providerCount(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1providerCount(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -7963,7 +7963,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1providerCount(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1findProvider(JNIEnv *jenv, jclass jcls, jstring jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1findProvider(JNIEnv *jenv, jclass jcls, jstring jarg1) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   mjpResourceProvider *result = 0 ;
@@ -7982,7 +7982,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1findProvider(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1getProviderAtSlot(JNIEnv *jenv, jclass jcls, jint jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1getProviderAtSlot(JNIEnv *jenv, jclass jcls, jint jarg1) {
   jlong jresult = 0 ;
   int arg1 ;
   mjpResourceProvider *result = 0 ;
@@ -7996,7 +7996,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1getProviderAtSlot(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1registerDecoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1registerDecoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjpDecoder *arg1 = 0 ;
   
   (void)jenv;
@@ -8006,7 +8006,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1registerDecoder(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1defaultDecoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1defaultDecoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjpDecoder *arg1 = 0 ;
   
   (void)jenv;
@@ -8016,7 +8016,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1defaultDecoder(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1findDecoder(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1findDecoder(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   mjResource *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8037,7 +8037,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1findDecoder(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1registerEncoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1registerEncoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjpEncoder *arg1 = 0 ;
   
   (void)jenv;
@@ -8047,7 +8047,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1registerEncoder(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1defaultEncoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1defaultEncoder(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjpEncoder *arg1 = 0 ;
   
   (void)jenv;
@@ -8057,7 +8057,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1defaultEncoder(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1findEncoder(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1findEncoder(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8083,7 +8083,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1findEncoder(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1registerArchiveProvider(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1registerArchiveProvider(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjpResourceProvider *arg1 = 0 ;
   
   (void)jenv;
@@ -8093,7 +8093,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjp_1registerArchiveProvider(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1findArchiveProvider(JNIEnv *jenv, jclass jcls, jstring jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1findArchiveProvider(JNIEnv *jenv, jclass jcls, jstring jarg1) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   mjpResourceProvider *result = 0 ;
@@ -8112,7 +8112,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjp_1findArchiveProvider(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1archiveProviderCount(JNIEnv *jenv, jclass jcls) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjp_1archiveProviderCount(JNIEnv *jenv, jclass jcls) {
   jint jresult = 0 ;
   int result;
   
@@ -8124,7 +8124,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjp_1archiveProviderCount(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1openResource(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jlong jarg3, jstring jarg4, jlong jarg5) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1openResource(JNIEnv *jenv, jclass jcls, jstring jarg1, jstring jarg2, jlong jarg3, jstring jarg4, jlong jarg5) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8161,7 +8161,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1openResource(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1closeResource(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1closeResource(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjResource *arg1 = 0 ;
   
   (void)jenv;
@@ -8171,7 +8171,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1closeResource(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1readResource(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1readResource(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   mjResource *arg1 = 0 ;
   void **arg2 = 0 ;
@@ -8187,7 +8187,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1readResource(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1writeResource(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jstring jarg5, jlong jarg6) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1writeResource(JNIEnv *jenv, jclass jcls, jstring jarg1, jlong jarg2, jlong jarg3, jlong jarg4, jstring jarg5, jlong jarg6) {
   jlong jresult = 0 ;
   char *arg1 = 0 ;
   void *arg2 = 0 ;
@@ -8231,7 +8231,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1writeResource(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1getResourceDir(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1getResourceDir(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3) {
   mjResource *arg1 = 0 ;
   char **arg2 = 0 ;
   int *arg3 = 0 ;
@@ -8245,7 +8245,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1getResourceDir(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1isModifiedResource(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1isModifiedResource(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   mjResource *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8266,7 +8266,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mju_1isModifiedResource(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1decodeResource(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jstring jarg4, jint jarg5) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1decodeResource(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jstring jarg4, jint jarg5) {
   jlong jresult = 0 ;
   mjResource *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8298,7 +8298,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mju_1decodeResource(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1threadpool(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mju_1threadpool(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   mjData *arg1 = 0 ;
   int arg2 ;
   
@@ -8310,7 +8310,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mju_1threadpool(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1attach(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jstring jarg4) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1attach(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jstring jarg4) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsElement *arg2 = 0 ;
@@ -8340,7 +8340,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1attach(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addBody(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addBody(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8356,7 +8356,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addBody(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addSite(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addSite(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8372,7 +8372,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addSite(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addJoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addJoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8388,7 +8388,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addJoint(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addFreeJoint(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addFreeJoint(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsJoint *result = 0 ;
@@ -8402,7 +8402,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addFreeJoint(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8418,7 +8418,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addGeom(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addCamera(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8434,7 +8434,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addCamera(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addLight(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addLight(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8450,7 +8450,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addLight(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addFrame(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addFrame(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsFrame *arg2 = 0 ;
@@ -8466,7 +8466,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addFrame(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1delete(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1delete(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsElement *arg2 = 0 ;
@@ -8482,7 +8482,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1delete(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addActuator(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addActuator(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8498,7 +8498,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addActuator(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addSensor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addSensor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsSensor *result = 0 ;
@@ -8512,7 +8512,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addSensor(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addFlex(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addFlex(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsFlex *result = 0 ;
@@ -8526,7 +8526,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addFlex(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1makeFlex(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3, jint jarg4, jstring jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jdouble jarg10, jdouble jarg11, jdouble jarg12, jint jarg13, jint jarg14, jint jarg15, jint jarg16, jlong jarg17, jlong jarg18, jlong jarg19, jstring jarg20, jlong jarg21) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1makeFlex(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3, jint jarg4, jstring jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jdouble jarg10, jdouble jarg11, jdouble jarg12, jint jarg13, jint jarg14, jint jarg15, jint jarg16, jlong jarg17, jlong jarg18, jlong jarg19, jstring jarg20, jlong jarg21) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8607,7 +8607,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1makeFlex(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addPair(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addPair(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8623,7 +8623,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addPair(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addExclude(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addExclude(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsExclude *result = 0 ;
@@ -8637,7 +8637,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addExclude(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addEquality(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addEquality(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8653,7 +8653,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addEquality(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addTendon(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addTendon(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -8669,7 +8669,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addTendon(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1wrapSite(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1wrapSite(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   mjsTendon *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8690,7 +8690,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1wrapSite(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1wrapGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1wrapGeom(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jstring jarg3) {
   jlong jresult = 0 ;
   mjsTendon *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8718,7 +8718,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1wrapGeom(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1wrapJoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jdouble jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1wrapJoint(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jdouble jarg3) {
   jlong jresult = 0 ;
   mjsTendon *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8741,7 +8741,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1wrapJoint(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1wrapPulley(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1wrapPulley(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2) {
   jlong jresult = 0 ;
   mjsTendon *arg1 = 0 ;
   double arg2 ;
@@ -8757,7 +8757,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1wrapPulley(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addNumeric(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addNumeric(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsNumeric *result = 0 ;
@@ -8771,7 +8771,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addNumeric(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addText(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addText(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsText *result = 0 ;
@@ -8785,7 +8785,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addText(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addTuple(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addTuple(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsTuple *result = 0 ;
@@ -8799,7 +8799,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addTuple(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addKey(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addKey(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsKey *result = 0 ;
@@ -8813,7 +8813,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addKey(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsPlugin *result = 0 ;
@@ -8827,7 +8827,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addPlugin(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addDefault(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addDefault(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -8850,7 +8850,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addDefault(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToMotor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToMotor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   char *result = 0 ;
@@ -8864,7 +8864,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToMotor(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jdouble jarg6) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToPosition(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jdouble jarg6) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double arg2 ;
@@ -8891,7 +8891,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToPosition(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToIntVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jdouble jarg6) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToIntVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jdouble jarg6) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double arg2 ;
@@ -8918,7 +8918,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToIntVelocity(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToVelocity(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double arg2 ;
@@ -8934,7 +8934,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToVelocity(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jlong jarg3, jlong jarg4, jint jarg5) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double arg2 ;
@@ -8958,7 +8958,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToOrientation(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToPID(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jdouble jarg8, jint jarg9) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToPID(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jlong jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jdouble jarg8, jint jarg9) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double arg2 ;
@@ -8993,7 +8993,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToPID(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToDamper(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToDamper(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double arg2 ;
@@ -9009,7 +9009,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToDamper(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToCylinder(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jdouble jarg3, jdouble jarg4, jdouble jarg5) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToCylinder(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2, jdouble jarg3, jdouble jarg4, jdouble jarg5) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double arg2 ;
@@ -9031,7 +9031,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToCylinder(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToMuscle(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jdouble jarg3, jlong jarg4, jdouble jarg5, jdouble jarg6, jdouble jarg7, jdouble jarg8, jdouble jarg9, jdouble jarg10, jdouble jarg11) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToMuscle(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jdouble jarg3, jlong jarg4, jdouble jarg5, jdouble jarg6, jdouble jarg7, jdouble jarg8, jdouble jarg9, jdouble jarg10, jdouble jarg11) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double *arg2 = (double *)0 ;
@@ -9067,7 +9067,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToMuscle(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToAdhesion(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToAdhesion(JNIEnv *jenv, jclass jcls, jlong jarg1, jdouble jarg2) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double arg2 ;
@@ -9083,7 +9083,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToAdhesion(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToDCMotor(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jdouble jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jlong jarg10, jint jarg11) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setToDCMotor(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jdouble jarg3, jlong jarg4, jlong jarg5, jlong jarg6, jlong jarg7, jlong jarg8, jlong jarg9, jlong jarg10, jint jarg11) {
   jstring jresult = 0 ;
   mjsActuator *arg1 = 0 ;
   double *arg2 = (double *)0 ;
@@ -9125,7 +9125,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1setToDCMotor(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -9141,7 +9141,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addMesh(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addHField(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addHField(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsHField *result = 0 ;
@@ -9155,7 +9155,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addHField(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addSkin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addSkin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsSkin *result = 0 ;
@@ -9169,7 +9169,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addSkin(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addTexture(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addTexture(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -9185,7 +9185,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addTexture(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addMaterial(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1addMaterial(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
@@ -9201,7 +9201,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1addMaterial(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1makeMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1makeMesh(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jlong jarg3, jint jarg4) {
   jint jresult = 0 ;
   mjsMesh *arg1 = 0 ;
   mjtMeshBuiltin arg2 ;
@@ -9227,7 +9227,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1makeMesh(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getSpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getSpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjSpec *result = 0 ;
@@ -9241,7 +9241,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getSpec(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getOriginSpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getOriginSpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjSpec *result = 0 ;
@@ -9255,7 +9255,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getOriginSpec(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getCompiler(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getCompiler(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsCompiler *result = 0 ;
@@ -9269,7 +9269,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getCompiler(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findSpec(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1findSpec(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -9290,7 +9290,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findSpec(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findBody(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1findBody(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -9311,7 +9311,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findBody(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findElement(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1findElement(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjtObj arg2 ;
@@ -9340,7 +9340,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findElement(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findChild(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1findChild(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -9361,7 +9361,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findChild(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getParent(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getParent(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsBody *result = 0 ;
@@ -9375,7 +9375,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getParent(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getFrame(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getFrame(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsFrame *result = 0 ;
@@ -9389,7 +9389,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getFrame(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findFrame(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1findFrame(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -9410,7 +9410,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findFrame(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getDefault(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getDefault(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsDefault *result = 0 ;
@@ -9424,7 +9424,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getDefault(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findDefault(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1findDefault(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -9445,7 +9445,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1findDefault(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getSpecDefault(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getSpecDefault(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsDefault *result = 0 ;
@@ -9459,7 +9459,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getSpecDefault(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1getId(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getId(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjsElement *arg1 = 0 ;
   int result;
@@ -9473,7 +9473,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1getId(JNIEnv *jenv, jclass jcls, jlo
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1firstChild(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1firstChild(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjtObj arg2 ;
@@ -9497,7 +9497,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1firstChild(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1nextChild(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1nextChild(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   jlong jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjsElement *arg2 = 0 ;
@@ -9515,7 +9515,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1nextChild(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1firstElement(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1firstElement(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjtObj arg2 ;
@@ -9537,7 +9537,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1firstElement(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1nextElement(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1nextElement(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjsElement *arg2 = 0 ;
@@ -9553,7 +9553,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1nextElement(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getWrapTarget(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getWrapTarget(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsWrap *arg1 = 0 ;
   mjsElement *result = 0 ;
@@ -9567,7 +9567,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getWrapTarget(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getWrapSideSite(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getWrapSideSite(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsWrap *arg1 = 0 ;
   mjsSite *result = 0 ;
@@ -9581,7 +9581,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getWrapSideSite(JNIEnv *jenv, jclas
 }
 
 
-SWIGEXPORT jdouble JNICALL Java_mujocoJNI_mjs_1getWrapDivisor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jdouble JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getWrapDivisor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jdouble jresult = 0 ;
   mjsWrap *arg1 = 0 ;
   double result;
@@ -9595,7 +9595,7 @@ SWIGEXPORT jdouble JNICALL Java_mujocoJNI_mjs_1getWrapDivisor(JNIEnv *jenv, jcla
 }
 
 
-SWIGEXPORT jdouble JNICALL Java_mujocoJNI_mjs_1getWrapCoef(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jdouble JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getWrapCoef(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jdouble jresult = 0 ;
   mjsWrap *arg1 = 0 ;
   double result;
@@ -9609,7 +9609,7 @@ SWIGEXPORT jdouble JNICALL Java_mujocoJNI_mjs_1getWrapCoef(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1setName(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setName(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jint jresult = 0 ;
   mjsElement *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -9630,7 +9630,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1setName(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setBuffer(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setBuffer(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjByteVec *arg1 = 0 ;
   void *arg2 = 0 ;
   int arg3 ;
@@ -9644,7 +9644,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setBuffer(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setString(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setString(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   mjString *arg1 = 0 ;
   char *arg2 = 0 ;
   
@@ -9661,7 +9661,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setString(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setStringVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setStringVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   mjStringVec *arg1 = 0 ;
   char *arg2 = 0 ;
   
@@ -9678,7 +9678,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setStringVec(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1setInStringVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setInStringVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2, jstring jarg3) {
   jlong jresult = 0 ;
   mjStringVec *arg1 = 0 ;
   int arg2 ;
@@ -9705,7 +9705,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1setInStringVec(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1appendString(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1appendString(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   mjStringVec *arg1 = 0 ;
   char *arg2 = 0 ;
   
@@ -9722,7 +9722,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1appendString(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setInt(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjIntVec *arg1 = 0 ;
   int *arg2 = 0 ;
   int arg3 ;
@@ -9736,7 +9736,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setInt(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1appendIntVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1appendIntVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjIntVecVec *arg1 = 0 ;
   int *arg2 = 0 ;
   int arg3 ;
@@ -9750,7 +9750,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1appendIntVec(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setFloat(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjFloatVec *arg1 = 0 ;
   float *arg2 = 0 ;
   int arg3 ;
@@ -9764,7 +9764,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setFloat(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1appendFloatVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1appendFloatVec(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjFloatVecVec *arg1 = 0 ;
   float *arg2 = 0 ;
   int arg3 ;
@@ -9778,7 +9778,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1appendFloatVec(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setDouble(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setDouble(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jint jarg3) {
   mjDoubleVec *arg1 = 0 ;
   double *arg2 = 0 ;
   int arg3 ;
@@ -9792,7 +9792,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setDouble(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setPluginAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setPluginAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjsPlugin *arg1 = 0 ;
   void *arg2 = 0 ;
   
@@ -9804,7 +9804,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setPluginAttributes(JNIEnv *jenv, jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getName(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getName(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjString *result = 0 ;
@@ -9818,7 +9818,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getName(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1getString(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getString(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jstring jresult = 0 ;
   mjString *arg1 = 0 ;
   char *result = 0 ;
@@ -9832,7 +9832,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1getString(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getDouble(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getDouble(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jlong jresult = 0 ;
   mjDoubleVec *arg1 = 0 ;
   int *arg2 = 0 ;
@@ -9848,7 +9848,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getDouble(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1getWrapNum(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getWrapNum(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjsTendon *arg1 = 0 ;
   int result;
@@ -9862,7 +9862,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1getWrapNum(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getWrap(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getWrap(JNIEnv *jenv, jclass jcls, jlong jarg1, jint jarg2) {
   jlong jresult = 0 ;
   mjsTendon *arg1 = 0 ;
   int arg2 ;
@@ -9878,7 +9878,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getWrap(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getPluginAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getPluginAttributes(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsPlugin *arg1 = 0 ;
   void *result = 0 ;
@@ -9892,7 +9892,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getPluginAttributes(JNIEnv *jenv, j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setDefault(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setDefault(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   mjsElement *arg1 = 0 ;
   mjsDefault *arg2 = 0 ;
   
@@ -9904,7 +9904,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setDefault(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1setFrame(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setFrame(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsFrame *arg2 = 0 ;
@@ -9920,7 +9920,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1setFrame(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1resolveOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jlong jarg4) {
+SWIGEXPORT jstring JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1resolveOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2, jstring jarg3, jlong jarg4) {
   jstring jresult = 0 ;
   double *arg1 = (double *)0 ;
   mjtByte arg2 ;
@@ -9952,7 +9952,7 @@ SWIGEXPORT jstring JNICALL Java_mujocoJNI_mjs_1resolveOrientation(JNIEnv *jenv, 
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1fuseStatic(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1fuseStatic(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -9968,7 +9968,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1fuseStatic(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1discardVisual(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1discardVisual(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -9984,7 +9984,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1discardVisual(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1dedupAssets(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1dedupAssets(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjSpec *arg1 = 0 ;
   int result;
@@ -9998,7 +9998,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1dedupAssets(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1adoptInertial(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1adoptInertial(JNIEnv *jenv, jclass jcls, jlong jarg1, jlong jarg2) {
   jint jresult = 0 ;
   mjsBody *arg1 = 0 ;
   mjVFS *arg2 = 0 ;
@@ -10014,7 +10014,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1adoptInertial(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1bodyToFrame(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1bodyToFrame(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsBody **arg1 = 0 ;
   mjsFrame *result = 0 ;
@@ -10028,7 +10028,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1bodyToFrame(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setUserValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setUserValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3) {
   mjsElement *arg1 = 0 ;
   char *arg2 = 0 ;
   void *arg3 = 0 ;
@@ -10047,7 +10047,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setUserValue(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setUserValueWithCleanup(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1setUserValueWithCleanup(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2, jlong jarg3, jlong jarg4) {
   mjsElement *arg1 = 0 ;
   char *arg2 = 0 ;
   void *arg3 = 0 ;
@@ -10068,7 +10068,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1setUserValueWithCleanup(JNIEnv *jenv
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getUserValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1getUserValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   char *arg2 = 0 ;
@@ -10089,7 +10089,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1getUserValue(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1deleteUserValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1deleteUserValue(JNIEnv *jenv, jclass jcls, jlong jarg1, jstring jarg2) {
   mjsElement *arg1 = 0 ;
   char *arg2 = 0 ;
   
@@ -10106,7 +10106,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1deleteUserValue(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1sensorDim(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jint JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1sensorDim(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jint jresult = 0 ;
   mjsSensor *arg1 = 0 ;
   int result;
@@ -10120,7 +10120,7 @@ SWIGEXPORT jint JNICALL Java_mujocoJNI_mjs_1sensorDim(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultSpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultSpec(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjSpec *arg1 = 0 ;
   
   (void)jenv;
@@ -10130,7 +10130,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultSpec(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultOrientation(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsOrientation *arg1 = 0 ;
   
   (void)jenv;
@@ -10140,7 +10140,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultOrientation(JNIEnv *jenv, jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultBody(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultBody(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsBody *arg1 = 0 ;
   
   (void)jenv;
@@ -10150,7 +10150,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultBody(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultFrame(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultFrame(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsFrame *arg1 = 0 ;
   
   (void)jenv;
@@ -10160,7 +10160,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultFrame(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultJoint(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultJoint(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsJoint *arg1 = 0 ;
   
   (void)jenv;
@@ -10170,7 +10170,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultJoint(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultGeom(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultGeom(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsGeom *arg1 = 0 ;
   
   (void)jenv;
@@ -10180,7 +10180,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultGeom(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultSite(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultSite(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsSite *arg1 = 0 ;
   
   (void)jenv;
@@ -10190,7 +10190,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultSite(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultCamera(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultCamera(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsCamera *arg1 = 0 ;
   
   (void)jenv;
@@ -10200,7 +10200,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultCamera(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultLight(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultLight(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsLight *arg1 = 0 ;
   
   (void)jenv;
@@ -10210,7 +10210,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultLight(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultFlex(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultFlex(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsFlex *arg1 = 0 ;
   
   (void)jenv;
@@ -10220,7 +10220,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultFlex(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsMesh *arg1 = 0 ;
   
   (void)jenv;
@@ -10230,7 +10230,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultMesh(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultHField(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultHField(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsHField *arg1 = 0 ;
   
   (void)jenv;
@@ -10240,7 +10240,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultHField(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultSkin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultSkin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsSkin *arg1 = 0 ;
   
   (void)jenv;
@@ -10250,7 +10250,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultSkin(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultTexture(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultTexture(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsTexture *arg1 = 0 ;
   
   (void)jenv;
@@ -10260,7 +10260,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultTexture(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultMaterial(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultMaterial(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsMaterial *arg1 = 0 ;
   
   (void)jenv;
@@ -10270,7 +10270,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultMaterial(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultPair(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultPair(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsPair *arg1 = 0 ;
   
   (void)jenv;
@@ -10280,7 +10280,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultPair(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultEquality(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultEquality(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsEquality *arg1 = 0 ;
   
   (void)jenv;
@@ -10290,7 +10290,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultEquality(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultTendon(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultTendon(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsTendon *arg1 = 0 ;
   
   (void)jenv;
@@ -10300,7 +10300,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultTendon(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultActuator(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultActuator(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsActuator *arg1 = 0 ;
   
   (void)jenv;
@@ -10310,7 +10310,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultActuator(JNIEnv *jenv, jclass
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultSensor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultSensor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsSensor *arg1 = 0 ;
   
   (void)jenv;
@@ -10320,7 +10320,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultSensor(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultNumeric(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultNumeric(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsNumeric *arg1 = 0 ;
   
   (void)jenv;
@@ -10330,7 +10330,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultNumeric(JNIEnv *jenv, jclass 
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultText(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultText(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsText *arg1 = 0 ;
   
   (void)jenv;
@@ -10340,7 +10340,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultText(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultTuple(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultTuple(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsTuple *arg1 = 0 ;
   
   (void)jenv;
@@ -10350,7 +10350,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultTuple(JNIEnv *jenv, jclass jc
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultKey(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultKey(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsKey *arg1 = 0 ;
   
   (void)jenv;
@@ -10360,7 +10360,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultKey(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT void JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1defaultPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   mjsPlugin *arg1 = 0 ;
   
   (void)jenv;
@@ -10370,7 +10370,7 @@ SWIGEXPORT void JNICALL Java_mujocoJNI_mjs_1defaultPlugin(JNIEnv *jenv, jclass j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asBody(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asBody(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsBody *result = 0 ;
@@ -10384,7 +10384,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asBody(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asGeom(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asGeom(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsGeom *result = 0 ;
@@ -10398,7 +10398,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asGeom(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asJoint(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asJoint(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsJoint *result = 0 ;
@@ -10412,7 +10412,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asJoint(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asSite(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asSite(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsSite *result = 0 ;
@@ -10426,7 +10426,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asSite(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asCamera(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asCamera(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsCamera *result = 0 ;
@@ -10440,7 +10440,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asCamera(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asLight(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asLight(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsLight *result = 0 ;
@@ -10454,7 +10454,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asLight(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asFrame(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asFrame(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsFrame *result = 0 ;
@@ -10468,7 +10468,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asFrame(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asActuator(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asActuator(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsActuator *result = 0 ;
@@ -10482,7 +10482,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asActuator(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asSensor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asSensor(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsSensor *result = 0 ;
@@ -10496,7 +10496,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asSensor(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asFlex(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asFlex(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsFlex *result = 0 ;
@@ -10510,7 +10510,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asFlex(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asPair(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asPair(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsPair *result = 0 ;
@@ -10524,7 +10524,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asPair(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asEquality(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asEquality(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsEquality *result = 0 ;
@@ -10538,7 +10538,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asEquality(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asExclude(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asExclude(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsExclude *result = 0 ;
@@ -10552,7 +10552,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asExclude(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asTendon(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asTendon(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsTendon *result = 0 ;
@@ -10566,7 +10566,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asTendon(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asNumeric(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asNumeric(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsNumeric *result = 0 ;
@@ -10580,7 +10580,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asNumeric(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asText(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asText(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsText *result = 0 ;
@@ -10594,7 +10594,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asText(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asTuple(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asTuple(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsTuple *result = 0 ;
@@ -10608,7 +10608,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asTuple(JNIEnv *jenv, jclass jcls, 
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asKey(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asKey(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsKey *result = 0 ;
@@ -10622,7 +10622,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asKey(JNIEnv *jenv, jclass jcls, jl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asMesh(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsMesh *result = 0 ;
@@ -10636,7 +10636,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asMesh(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asHField(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asHField(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsHField *result = 0 ;
@@ -10650,7 +10650,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asHField(JNIEnv *jenv, jclass jcls,
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asSkin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asSkin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsSkin *result = 0 ;
@@ -10664,7 +10664,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asSkin(JNIEnv *jenv, jclass jcls, j
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asTexture(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asTexture(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsTexture *result = 0 ;
@@ -10678,7 +10678,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asTexture(JNIEnv *jenv, jclass jcls
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asMaterial(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asMaterial(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsMaterial *result = 0 ;
@@ -10692,7 +10692,7 @@ SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asMaterial(JNIEnv *jenv, jclass jcl
 }
 
 
-SWIGEXPORT jlong JNICALL Java_mujocoJNI_mjs_1asPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
+SWIGEXPORT jlong JNICALL Java_io_github_nivalis9_mujoco_mujocoJNI_mjs_1asPlugin(JNIEnv *jenv, jclass jcls, jlong jarg1) {
   jlong jresult = 0 ;
   mjsElement *arg1 = 0 ;
   mjsPlugin *result = 0 ;
