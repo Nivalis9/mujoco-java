@@ -9,5 +9,26 @@
 package io.github.nivalis9.mujoco;
 
 public interface mujocoConstants {
+  public final static double mjMINVAL = mujocoJNI.mjMINVAL_get();
+  public final static double mjMAXVAL = mujocoJNI.mjMAXVAL_get();
+  public final static double mjPI = mujocoJNI.mjPI_get();
+  public final static double mjMINMU = mujocoJNI.mjMINMU_get();
+  public final static double mjMINIMP = mujocoJNI.mjMINIMP_get();
+  public final static double mjMAXIMP = mujocoJNI.mjMAXIMP_get();
+  public final static int mjMAXCONPAIR = mujocoJNI.mjMAXCONPAIR_get();
+  public final static int mjMAXTREEDEPTH = mujocoJNI.mjMAXTREEDEPTH_get();
+  public final static int mjMAXFLEXNODES = mujocoJNI.mjMAXFLEXNODES_get();
+  public final static int mjMINAWAKE = mujocoJNI.mjMINAWAKE_get();
+  public final static int mjNEQDATA = mujocoJNI.mjNEQDATA_get();
+  public final static int mjNDYN = mujocoJNI.mjNDYN_get();
+  public final static int mjNGAIN = mujocoJNI.mjNGAIN_get();
+  public final static int mjNBIAS = mujocoJNI.mjNBIAS_get();
+  public final static int mjNFLUID = mujocoJNI.mjNFLUID_get();
+  public final static int mjNREF = mujocoJNI.mjNREF_get();
+  public final static int mjNIMP = mujocoJNI.mjNIMP_get();
+  public final static int mjNPOLY = mujocoJNI.mjNPOLY_get();
+  public final static int mjNSENS = mujocoJNI.mjNSENS_get();
+  public final static int mjNSOLVER = mujocoJNI.mjNSOLVER_get();
+  public final static int mjNISLAND = mujocoJNI.mjNISLAND_get();
   public final static int mjVERSION_HEADER = mujocoJNI.mjVERSION_HEADER_get();
 }
